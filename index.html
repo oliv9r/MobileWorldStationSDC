@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile World Station | Home</title>
+    <link rel="stylesheet" href="/assets/CSS/index.css">
+</head>
+
+<body onload="startTime()">          <!--tells website when body is loaded to 
+                                        inject and start javascript-->
+
+    <!----header---->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/assets/images/MWSLogo.png" height="100px"  width="100px" alt="logo">         <!-- Website Logo-->
+                </div>
+                <br>
+                <div id="clockdate">
+                    <div class="clockdate-wrapper">     <!-- this is the date 
+                                                        and time component -->
+                        <div id="clock"></div>
+                        <div id="date"></div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/assets/phones.html">Phones</a></li>
+                        <li><a href="/assets/tablets.html">Tablets</a></li>
+                        <li><a href="/assets/accessories.html">Accessories</a></li>      <!--This is the navigation bar-->
+                        <li><a href="/assets/services.html">Services</a></li>
+                        <li><a href="/assets/contact.html">Contact</a></li>
+                        <li><a href="/assets/about.html">About</a></li>
+                    </ul>
+                </nav>
+                    <a href="/assets/basket.html"><img src="/assets/images/Cart.png" width="23px" height="23px" alt=""></a> <!--Basket in 
+                                                                    navbar-->
+            </div>
+            <script src="/assets/JS/script.js"></script> <!--Linking external 
+                                                                        JS-->
+            <div class="row">
+                <div class ="col-2">
+                    <h1>Welcome to Mobile World Station!</h1>   <!--Welcome 
+                                                                    header-->
+                    <p>Welcome to Mobile World Station! Explore and find your new take-home gadget or accessory!</p> <!--Welcome text-->
+                    <a href="#Phones" class="btn">Scroll down  &#8595;</a><div id="Phones"></div> <!--Scrolling button-->
+                    <div class="col-2">
+                    <img src="/assets/images/Home.png" alt="Phones and tablets"> <!--Home page image-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    <!----featured categories---->
+    <div class="categories">    <!--categories section-->
+        <div class="small-container"> <!--container to manage-->
+            <h2 class="title">Featured Categories</h2>  
+            
+            <div class="row">
+                <div class="col-3">
+                    <img src="/assets/images/Phones/13 Pro/M10230574_black.jp2" alt="iPhone 13"><p>Phones</p> <!--Product 1-->
+                </div>
+                <div class="col-3">
+                    <img src="/assets/images/Accessories/Wireless chargers/10227835.jp2" alt="Wireless charger"><p>Accessories</p>  <!-- Product 2-->
+                </div>
+                <div class="col-3">
+                    <img src="/assets/images/Tablets/10.9 Air/M10236073_silver-grey.jp2" alt="Tablets"><p>Tablets</p>  <!--Product 3-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----featured Phones---->
+    <div class="small-container"> <!--Small container-->
+        <h2 class="title">Featured Phones</h2> <!--Featured Phones section-->
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <img src="/assets/images/Phones/13 Pro/M10230574_black.jp2" height="200px" width="auto" alt=""> <!--Device 1-->
+                <h4>iPhone 13 Pro</h4>
+                <p>£1199</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/images/Phones/13/M10230581_black.jp2" height="200px" width="auto" alt=""> <!--Device 2-->
+                <h4>iPhone 13</h4>
+                <p>£899</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/images/Phones/A53/M10237199_black.jp2" height="200px" width="auto" alt=""> <!--Device 3-->
+                <h4>Samsung Galaxy A53</h4>
+                <p>£299</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/images/Phones/Edge 30/10238690.jp2" height="200px" width="auto" alt=""> <!--Device 4-->
+                <h4>Motorola Edge 30</h4>
+                <p>£379</p>
+            </div>
+        </div>
+        <h2 class="title">Featured Tablets</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="/assets/images/Tablets/10.9 Air/M10236073_silver-grey.jp2" height="200px" width="auto" alt=""> <!--Device 5-->
+                <h4>iPad Air 10.9"</h4>
+                <p>£799</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/images/Tablets/12.9 iPad Pro/iPad Pro 12.9.jpg" height="200px" width="auto" alt=""> <!--Device 6-->
+                <h4>iPad Pro 12.9"</h4>
+                <p>£1299</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/images//Tablets/8.3 mini/M10221698_grey.jp2" height="200px" width="auto" alt=""> <!--Device 7-->
+                <h4>iPad Air</h4>
+                <p>£749</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/images/Tablets/Lenovo Tab/10230876_003.jp2" height="200px" width="auto" alt=""> <!--Device 8-->
+                <h4>Lenovo Tab</h4>
+                <p>£599</p>
+            </div>
+        </div>
+    </div>
+<!----New device page---->
+<!--<div class="device">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="/assets/images/Phones/Google 6 pro/M10232049_black.jp2" class="offer-img" alt="">
+            </div>
+            <div class="col-2">
+                <p>Available now at Mobile World Station</p>
+                <h1>Google Pixel 6</h1>
+                <small>Boasting the new Google Tensor processor, the improved Pixel 6 Pro is here. Google's own processor has been custom made and tuned just for the Pixel. It comes with a huge improvement in speech and text recognition - powerful enough to translate in real time. Listen, chat and read in 55 languages. Even without an internet connection.
+                </small>
+            </div>
+        </div>
+    </div>
+</div>-->
+<!----footer---->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-2">
+                <h3>find us on Facebook</h3>
+            </div>
+            <div class="footer-col-2">
+            <a href="https://www.facebook.com"><img src="/assets/images/facebook-app-symbol.png" height="25px"alt=""></a> 
+            </div>
+            <div class="footer-col-2">
+                <h3>find us on Instagram</h3>
+            </div>
+            <div class="footer-col-2">
+            <a href="https://www.instagram.com"><img src="/assets/images/instagram.png" height="25px"alt=""></a> 
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
